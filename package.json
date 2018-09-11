@@ -1,0 +1,26 @@
+{
+	"name": "fcc-adamxtokyo-url-shortener",
+	"version": "1.0.0",
+	"description": "freeCodeCamp API Project: URL Shortener Microservice",
+	"homepage": "https://fcc-adamxtokyo-url-shortener.herokuapp.com/",
+	"author": "Adam Grawender",
+	"license": "MIT",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.4",
+		"express": "^4.16.3",
+		"valid-url": "^1.0.9"
+	},
+	"engines": {
+		"node": "10.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/adamxtokyo/fcc-adamxtokyo-url-shortener"
+	},
+	"private": true
+}
